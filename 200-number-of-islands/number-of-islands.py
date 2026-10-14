@@ -4,7 +4,7 @@ class Solution:
         if not grid: 
             return 0
 
-        count = 0 # number fo islands
+        count = 0 # number of islands
 
         # Define a DFS function that takes the grid & current cell coords (i, j)
         def explore(grid, i, j):
